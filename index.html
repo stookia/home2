@@ -23,6 +23,14 @@
 
 </FONT>
 
+<input id="color2" type=color> 
+
+  <script>
+    document.getElementById('color2').addEventListener("input", function(){
+      localStorage.setItem("col2","color:"+document.getElementById('color2').value);
+    });
+  </script>
+
 <HR>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
